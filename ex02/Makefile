@@ -6,15 +6,15 @@
 #    By: junghwle <junghwle@student.42barcel>       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/06/03 14:32:42 by junghwle          #+#    #+#              #
-#    Updated: 2023/12/24 00:21:02 by junghwle         ###   ########.fr        #
+#    Updated: 2023/12/24 01:33:23 by junghwle         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME=
+NAME=ex02
 
 SRCDIR=.
 OBJDIR=objs
-SRCS=
+SRCS=main.cpp Fixed.cpp
 OBJS=$(patsubst %.cpp, $(OBJDIR)/%.o, $(SRCS))
 DEPS=$(OBJS:.o=.d)
 

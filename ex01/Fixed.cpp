@@ -6,13 +6,13 @@
 /*   By: junghwle <junghwle@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/24 00:21:32 by junghwle          #+#    #+#             */
-/*   Updated: 2023/12/24 01:10:21 by junghwle         ###   ########.fr       */
+/*   Updated: 2023/12/24 01:22:29 by junghwle         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Fixed.hpp"
 #include <iostream>
-#include <math.h>
+#include <cmath>
 
 Fixed::Fixed(/* args */)
 {
